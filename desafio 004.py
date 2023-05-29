@@ -1,0 +1,7 @@
+n = input('Digite alguma coisa:')
+print('{} É letra e numero : '.format(n), type(n))
+print('{} É letra e numero : '.format(n), n.isalnum())
+print('{} É letra: '.format(n), n.isalpha())
+print('{} É numero: '.format(n), n.isnumeric())
+print('{} Tem letra maiuscula: '.format(n), n.isupper())
+print('{} tem letra minuscula : '.format(n), n.islower())
